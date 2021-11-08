@@ -5,18 +5,18 @@
 }
 
 h1 {
-    color: teal;
+    color: rgb(1, 20, 20);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-#main-nav {
+.nav {
     margin-top: 10px;
     list-style-type: none;
 }
 
-#main-nav li {
+ li {
     display: inline-block;
 }
 
@@ -26,7 +26,9 @@ h1 {
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
-
+}
+.page-header{
+    background-color: olive;
 }
 main {
     width: 100%;
